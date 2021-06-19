@@ -1,17 +1,17 @@
 #!/bin/bash
 
-ADDRESS=
+# # file transfer - upload
+# mkdir dev
+# cd dev
+# put Dockerfile
+# put info.txt
+# mkdir target
+# put target/java-docker-demo-1.0-SNAPSHOT.jar target/
+# put server-side-instructions.sh
+# chmod +777 server-side-instructions.sh
+put -r src/
 
-# ##############################################################################
-# ./pwd-controller.sh -a $ADDRESS -s
-# ./pwd-controller.sh -a $ADDRESS -u Dockerfile -u target/java-docker-demo-1.0-SNAPSHOT.jar -u info.txt
-# ./pwd-controller.sh -a $ADDRESS -i server-side-instructions.sh
-# ##############################################################################
 
-# ##############################################################################
-# ./pwd-controller.sh -a $ADDRESS -i server-side-instructions.sh
-# ##############################################################################
-
-# ##############################################################################
-./pwd-controller.sh -a $ADDRESS -d abhishek-info4.tar
-# ##############################################################################
+# # file transfer - download
+# cd dev
+# get abhishek-info5.tar ./downloads/
